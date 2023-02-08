@@ -163,6 +163,11 @@
             "description": "捕获异常"
           },
           {
+            "label": "💚 ci:repair ci",
+            "value": "💚ci",
+            "description": "修复 CI 构建"
+          },
+          {
             "label": "🔨 script",
             "value": "🔨script",
             "description": "新增或更新开发脚本"
