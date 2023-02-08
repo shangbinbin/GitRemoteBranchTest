@@ -23,23 +23,23 @@
         "combobox": true,
         "options": [
           {
-            "label": "🩹 adhesive-bandage",
-            "value": "🩹",
+            "label": "🩹 fix:simple problem",
+            "value": "🩹fix",
             "description": "简单修复非关键性问题"
           },
           {
-            "label": "⚗ alembic",
-            "value": "⚗",
-            "description": "试验新功能"
+            "label": "⚗ feat:experimental feature",
+            "value": "⚗feat",
+            "description": "实验性功能"
           },
           {
-            "label": "👽 alien",
-            "value": "👽",
+            "label": "👽 refactor:due to changed api",
+            "value": "👽refactor",
             "description": "由于外部API变化而更新代码"
           },
           {
-            "label": "🚑 ambulance",
-            "value": "🚑",
+            "label": "🚑 fix:emergency hot fix",
+            "value": "🚑fix",
             "description": "紧急热修复"
           },
           {
@@ -48,19 +48,19 @@
             "description": "新增或更新动画和过场"
           },
           {
-            "label": "⬇️ arrow-down",
-            "value": "⬇️",
+            "label": "⬇️ build:dependency version down",
+            "value": "⬇️build",
             "description": "降级依赖版本"
           },
           {
-            "label": "⬆️ arrow-up",
-            "value": "⬆️",
+            "label": "⬆️ build:dependency version up",
+            "value": "⬆️build",
             "description": "升级依赖版本"
           },
           {
-            "label": "🎨 art",
-            "value": "🎨",
-            "description": "改进项目结构/代码格式"
+            "label": "🎨 style:code style",
+            "value": "🎨style",
+            "description": "代码样式改动"
           },
           {
             "label": "🍻 beers",
@@ -68,33 +68,33 @@
             "description": "醉醺醺的写代码"
           },
           {
-            "label": "🍱 bento",
-            "value": "🍱",
+            "label": "🍱 build:add/update resources",
+            "value": "🍱build",
             "description": "新增或更新资源"
           },
           {
             "label": "🔖 bookmark",
-            "value": "🔖",
+            "value": "🔖mark",
             "description": "标签"
           },
           {
-            "label": "💥 boom",
-            "value": "💥",
+            "label": "💥 feat:breaking feature",
+            "value": "💥feat",
             "description": "引入重大改变"
           },
           {
-            "label": "🐛 bug",
-            "value": "🐛",
+            "label": "🐛 fix:bug",
+            "value": "🐛fix",
             "description": "修复 BUG"
           },
           {
-            "label": "🏗 building-construction",
-            "value": "🏗",
-            "description": "进行架构更改"
+            "label": "🏗 refactor:structure",
+            "value": "🏗refactor",
+            "description": "代码架构更改"
           },
           {
-            "label": "💡 bulb",
-            "value": "💡",
+            "label": "💡 comment:add comment",
+            "value": "💡comment",
             "description": "在源代码中添加或更新注释"
           },
           {
@@ -123,23 +123,23 @@
             "description": "提高用户体验 / 可用性"
           },
           {
-            "label": "🤡 clown-face",
-            "value": "🤡",
-            "description": "进行 mock 测试"
+            "label": "🤡 test:mock test",
+            "value": "🤡test",
+            "description": "mock 测试"
           },
           {
-            "label": "⚰️ coffin",
-            "value": "⚰️",
-            "description": "删除无效代码"
+            "label": "⚰️ useless code",
+            "value": "⚰️useless",
+            "description": "删除无效代码片段"
           },
           {
-            "label": "🚧 construction",
-            "value": "🚧",
+            "label": "🚧 working on",
+            "value": "🚧working on",
             "description": "进行中的工作"
           },
           {
-            "label": "👷 construction-worker",
-            "value": "👷",
+            "label": "👷 ci:add/update ci",
+            "value": "👷ci",
             "description": "新增或更新 CI 构建系统"
           },
           {
@@ -148,8 +148,8 @@
             "description": "新增或更新一个彩蛋"
           },
           {
-            "label": "🔥 fire",
-            "value": "🔥",
+            "label": "🔥 refactor:delete file",
+            "value": "🔥refactor",
             "description": "删除代码或文件"
           },
           {
@@ -163,23 +163,18 @@
             "description": "捕获异常"
           },
           {
-            "label": "💚 green-heart",
-            "value": "💚",
-            "description": "修复 CI 构建"
-          },
-          {
-            "label": "🔨 hammer",
-            "value": "🔨",
+            "label": "🔨 script",
+            "value": "🔨script",
             "description": "新增或更新开发脚本"
           },
           {
-            "label": "➖ heavy-minus-sign",
-            "value": "➖",
+            "label": "➖ build:remove dependency",
+            "value": "➖build",
             "description": "移除依赖"
           },
           {
-            "label": "➕ heavy-plus-sign",
-            "value": "➕",
+            "label": "➕ build:add dependency",
+            "value": "➕build",
             "description": "添加依赖"
           },
           {
@@ -188,7 +183,7 @@
             "description": "响应式设计的工作"
           },
           {
-            "label": "🏷️ label",
+            "label": "🏷️ add/update type",
             "value": "🏷️",
             "description": "新增或更新类型"
           },
@@ -198,8 +193,8 @@
             "description": "新增或更新 UI 样式文件"
           },
           {
-            "label": "🔒 lock",
-            "value": "🔒",
+            "label": "🔒 fix:security problem",
+            "value": "🔒fix",
             "description": "修复安全问题"
           },
           {
@@ -213,9 +208,9 @@
             "description": "改善 SEO"
           },
           {
-            "label": "📝 memo",
+            "label": "📝 docs:add docs",
             "value": "📝docs",
-            "description": "添加或更新文件"
+            "description": "新增文档"
           },
           {
             "label": "🧐 monocle-face",
@@ -223,13 +218,13 @@
             "description": "数据探索 / 数据巡检"
           },
           {
-            "label": "🔇 mute",
+            "label": "🔇 delete logs",
             "value": "🔇",
             "description": "删除日志"
           },
           {
-            "label": "📦 package",
-            "value": "📦",
+            "label": "📦 build:add/update compiled file or package",
+            "value": "📦build",
             "description": "新增或更新已编译的文件或包"
           },
           {
@@ -243,13 +238,13 @@
             "description": "编写与授权、角色和权限有关的代码"
           },
           {
-            "label": "✏️ pencil2",
-            "value": "✏️",
+            "label": "✏️ fix:spelling errors",
+            "value": "✏️fix",
             "description": "修复拼写错误"
           },
           {
             "label": "💩 poop",
-            "value": "💩",
+            "value": "💩poop",
             "description": "写不好的代码，需要改进"
           },
           {
@@ -258,19 +253,19 @@
             "description": "将依赖设定为指定版本"
           },
           {
-            "label": "♻️ recycle",
-            "value": "♻️",
+            "label": "♻️ refactor: code",
+            "value": "♻️refactor",
             "description": "重构代码"
           },
           {
-            "label": "⏪ rewind",
-            "value": "⏪",
+            "label": "⏪ revert:git revert",
+            "value": "⏪revert",
             "description": "还原修改"
           },
           {
-            "label": "🚀 rocket",
-            "value": "🚀",
-            "description": "部署项目"
+            "label": "🚀 build:project deployment",
+            "value": "🚀build",
+            "description": "部署相关"
           },
           {
             "label": "🚨 rotating-light",
@@ -278,8 +273,8 @@
             "description": "修复编译器 / 链接器警告"
           },
           {
-            "label": "🙈 see-no-evil",
-            "value": "🙈",
+            "label": "🙈 chore:update gitignore",
+            "value": "🙈chore",
             "description": "新增或更新 .gitignore 文件"
           },
           {
@@ -288,18 +283,18 @@
             "description": "新增或更新 SEED 文件"
           },
           {
-            "label": "✨ sparkles",
-            "value": "✨",
+            "label": "✨ feat:new feature",
+            "value": "✨feat",
             "description": "引入新特性"
           },
           {
-            "label": "💬 speech-balloon",
-            "value": "💬",
-            "description": "新增或更新文本和文字"
+            "label": "💬 docs:update docs",
+            "value": "💬docs",
+            "description": "更新文档"
           },
           {
-            "label": "🎉 tada",
-            "value": "🎉",
+            "label": "🎉 initial commit",
+            "value": "🎉initial",
             "description": "初次提交"
           },
           {
@@ -308,19 +303,19 @@
             "description": "添加、更新或删除特性标志"
           },
           {
-            "label": "🚚 truck",
-            "value": "🚚",
+            "label": "🚚 build:remove/rename resources",
+            "value": "🚚build",
             "description": "移动或重命名资源"
           },
           {
-            "label": "🔀 twisted-rightwards-arrows",
-            "value": "🔀",
+            "label": "🔀 merge branches",
+            "value": "🔀merge",
             "description": "合并分支"
           },
           {
-            "label": "🗑 wastebasket",
-            "value": "🗑",
-            "description": "需要清理的废弃代码"
+            "label": "🗑 waste code",
+            "value": "🗑waste",
+            "description": "清理废弃代码文件"
           },
           {
             "label": "♿️ wheelchair",
@@ -328,19 +323,19 @@
             "description": "改善无障碍环境"
           },
           {
-            "label": "✅ white-check-mark",
-            "value": "✅",
+            "label": "✅ test:add/update/pass test",
+            "value": "✅test",
             "description": "添加、更新或通过测试"
           },
           {
-            "label": "🔧 wrench",
-            "value": "🔧",
+            "label": "🔧 chore:add/update configuration file",
+            "value": "🔧chore",
             "description": "新增或更新配置文件"
           },
           {
-            "label": "⚡️ zap",
-            "value": "⚡️",
-            "description": "提高性能"
+            "label": "⚡️ perf:performance upgrade",
+            "value": "⚡️perf",
+            "description": "提高代码性能"
           }
         ],
         "description": "Type of changes"
